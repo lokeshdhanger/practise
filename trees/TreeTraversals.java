@@ -1,5 +1,12 @@
 package trees;
 
+/**
+*NOTE:
+*  time complexity of all three inorder, preorder, postorder is same
+*  i.e. O(n)
+*
+*
+*/
 public class TreeTraversals {
 	
 	static Node root;
@@ -13,10 +20,27 @@ public class TreeTraversals {
 		root.right=new Node(15);
 		root.right.right=new Node(18);
 		
+		/**
+		*in BST, inorder traversal gives nodes in decreasing order.
+		*
+		*
+		*/
 		inorder(root);
 		System.out.println("\n");
+
+		/**
+		*preorder traversal used to:
+		* 1. create copy of a tree
+		* 2. get prefix expression on of an expression tree.
+		*/
 		preorder(root);
 		System.out.println("\n");
+
+		/**
+		* postorder traversal is used to delete the tree.
+		* used to get postfix expression of an expression tree.
+		*
+		*/
 		postorder(root);
 		
 	}
