@@ -25,8 +25,8 @@ public class TreeTraversals {
 		if (root==null) {
 			return;
 		}
-		System.out.print(root.data+" ");
 		inorder(root.left);
+		System.out.print(root.data+" ");
 		inorder(root.right);
 	}
 
@@ -35,8 +35,8 @@ public class TreeTraversals {
 		if (root==null) {
 			return;
 		}
-		preorder(root.left);
 		System.out.print(root.data+" ");
+		preorder(root.left);
 		preorder(root.right);
 
 	}
