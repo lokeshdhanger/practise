@@ -4,7 +4,8 @@ package trees;
 *NOTE:
 *  time complexity of all three inorder, preorder, postorder is same
 *  i.e. O(n)
-*
+*  these 3 traversals comes within DFS or deffpth first search.
+*  space complexity: O(h) , height of tree.
 *
 */
 public class TreeTraversals {
