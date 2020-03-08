@@ -1,5 +1,10 @@
 package trees;
 
+/**
+ * time complexity: O(n)
+ * @author xarvis
+ *
+ */
 public class RightViewOfBinaryTree {
 	
 	static Node root;
